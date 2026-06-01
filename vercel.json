@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/shared/:path*",
+      "destination": "https://polarispoint.io/shared/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://polarispoint.io/api/:path*"
+    }
+  ]
+}
